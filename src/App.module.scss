@@ -1,0 +1,13 @@
+.ticketTracker {
+  height: 100vh;
+  background-color: #87b9cb;
+
+  h1 {
+    text-align: center;
+    background-color: #4a8fa8;
+  }
+  section {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+  }
+}

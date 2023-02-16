@@ -1,0 +1,23 @@
+.employeeCard {
+  place-self: center;
+  padding: 10px;
+  height: 180px;
+  width: 180px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #68a6bd;
+
+  h2 {
+    height: 1.5rem;
+    font-size: 1.2rem;
+  }
+  p {
+    margin: 0.3rem 0 0 0;
+    height: 1.5rem;
+    font-size: 0.8rem;
+  }
+}

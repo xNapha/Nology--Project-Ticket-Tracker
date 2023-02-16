@@ -1,0 +1,24 @@
+.counterCard {
+  display: block;
+  margin: auto;
+  height: 5rem;
+  width: 60%;
+  div {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+  }
+  button {
+    width: 2rem;
+    background-color: #348fcb;
+    border: 0px;
+    border-radius: 10px;
+    &:hover {
+      filter: brightness(70%);
+      transition: 0.3s;
+      transform: scale(1.1);
+      cursor: pointer;
+    }
+  }
+}
